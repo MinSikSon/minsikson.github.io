@@ -45,3 +45,4 @@
 </script>
 ```
 * 위 sample code의 핵심은 무엇일까? ... 위 [화살표 함수](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Arrow_functions) setState 수행 시, render()를 call 한다는 부분이다. 현대 front-end 개발은 DOM 렌더링이 state에 종속된다.
+    * 핵심 한 가지 더... state는 setState 함수로만 변경 되어야 한단다..!!
