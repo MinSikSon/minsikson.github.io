@@ -12,7 +12,7 @@
 * CSR: Client-Side Rendering
   * JS가 발전하면서 client(browser)에서 모든 렌더링을 처리하려는 시도 $\rightarrow$ Angular(CSR의 시작), React(컴포넌트 개발의 시작), Vue(angular와 react의 장점 모두 수용) 등 탄생
 
-## `state - setState - render` 관련 sample code
+## sample code: ***state - setState - render*** 관련
 ```javascript
 <div id="app"></div>
 <script>
