@@ -17,3 +17,9 @@
 
 ## [접근자 get](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/get)
 * get 구문은 객체의 속성 접근 시 호출할 함수를 바인딩합니다.
+
+## [Object.defineProperty()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+
+## [Object.keys()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+
+## [Set](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set)
