@@ -12,3 +12,5 @@ title: "[JS] closer, let과 var 그리고 prototype"
 * [var](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/var): '자신을 선언한 블록'이 아니라, 자신의 선언을 포함하는 ***함수***
 
 # prototype
+* [프로토타입 이해](https://www.nextree.co.kr/p7323/)
+* 
