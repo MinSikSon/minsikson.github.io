@@ -16,9 +16,10 @@ title: "[PROJECT] web mini project"
   * [기능 2] input tag 에 입력된 keyword 를 기억한다. (store)
   * [기능 3] input tag 에 값을 넣은 뒤 ```Enter```를 누른 뒤 원하는 데이터를 가져온다.
 * 분리
-  * 기능 1 에서 값을 넣을 때마다, keyword 를 저장해 두는 기능 2 를 분리 시켜, input tag 가 re-rendering 되지 않도록 한다.
-  * 기능 2 에서 기억해두는 값을 기능 3 수행시 사용한다.
+  * [ ] 기능 1 에서 값을 넣을 때마다, keyword 를 저장해 두는 기능 2 를 분리 시켜, input tag 가 re-rendering 되지 않도록 한다.
+  * [ ] 기능 2 에서 기억해두는 값을 기능 3 수행시 사용한다.
+  * [ ] input tag 인 경우 input 값이 바뀐다고 해도 re-rendering 하지 않게 바꿔야 한다.
 
 ## issue2: 하위 Component 에서 addEvent() 수행 시, 하위 Component 에 event 가 붙는 문제.
-* event bubbling 을 사용할 것이기 때문에, event 를 root 에 붙여야 한다.
-* 중복 event 등록을 적절히 제거해야 한다.
+* [x] event bubbling 을 사용할 것이기 때문에, event 를 root 에 붙여야 한다.
+* [x] 중복 event 등록을 적절히 제거해야 한다.
