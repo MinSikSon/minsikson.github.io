@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[JS] closer, let과 var 그리고 prototype"
+title: "[JS] closure, let과 var 그리고 prototype"
 ---
 
 # [클로저](https://developer.mozilla.org/ko/docs/Web/JavaScript/Closures)
