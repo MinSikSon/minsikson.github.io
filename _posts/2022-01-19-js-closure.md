@@ -86,6 +86,7 @@ export const observable = (obj) => {
     return obj;
 }
 ```
+
 ## 함수 설명
 * ```window.cancelAnimationFrame()```: [window.cancelAnimationFrame()](https://developer.mozilla.org/ko/docs/Web/API/Window/cancelAnimationFrame) 메소드는 이전에 window.requestAnimationFrame() 을 호출하여 스케줄된 애니메이션 프레임 요청을 취소합니다.
 * ```window.requestAnimationFrame()```: [window.requestAnimationFrame()](https://developer.mozilla.org/ko/docs/Web/API/Window/requestAnimationFrame) 은 브라우저에게 수행하기를 원하는 애니메이션을 알리고 다음 리페인트가 진행되기 전에 해당 애니메이션을 업데이트하는 함수를 호출하게 합니다. 이 메소드는 리페인트 이전에 실행할 콜백을 인자로 받습니다.
@@ -99,6 +100,7 @@ array1.forEach(element => console.log(element));
 // expected output: "b"
 // expected output: "c"
 ```
+
 * ```Set```: Set 객체는 자료형에 관계 없이 원시 값과 객체 참조 모두 ***유일한 값***을 저장할 수 있습니다.
 ```javascript
 var mySet = new Set();
@@ -127,6 +129,7 @@ mySet.has(5);    // false, 5가 제거되었음
 mySet.size; // 4, 방금 값을 하나 제거했음
 console.log(mySet);// Set {1, "some text", Object {a: 1, b: 2}, Object {a: 1, b: 2}}
 ```
+
 * ```원시 값```: [원시 값(primitive, 또는 원시 자료형)](https://developer.mozilla.org/ko/docs/Glossary/Primitive)이란 객체가 아니면서 메서드도 가지지 않는 데이터입니다. 원시 값에는 7종류, string, number (en-US), bigint (en-US), boolean, undefined, symbol, 그리고 null이 존재합니다.
 * ```Object.defineProperty()```: [Object.defineProperty()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) 정적 메서드는 객체에 새로운 속성을 직접 정의하거나 이미 존재하는 속성을 수정한 후, 해당 객체를 반환합니다.
 ```javascript
@@ -143,6 +146,7 @@ object1.property1 = 77;
 console.log(object1.property1);
 // expected output: 42
 ```
+
 * ```정적 메서드```: [static](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes/static) 키워드는 클래스의 정적 메서드를 정의합니다.
 ```javascript
 class ClassWithStaticMethod {
@@ -154,7 +158,6 @@ class ClassWithStaticMethod {
     console.log('Class static initialization block called');
   }
 }
-
 console.log(ClassWithStaticMethod.staticProperty);
 // output: "someValue"
 console.log(ClassWithStaticMethod.staticMethod());
